@@ -40,15 +40,15 @@
         android:text="@string/send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintHorizontal_bias="0.894"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.923" />
+        app:layout_constraintVertical_bias="0.938" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine3"
-        android:layout_width="376dp"
-        android:layout_height="456dp"
+        android:layout_width="372dp"
+        android:layout_height="407dp"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
