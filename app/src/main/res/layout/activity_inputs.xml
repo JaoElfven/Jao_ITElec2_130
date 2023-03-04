@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inputs">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/search_go"
+        app:icon="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="23dp"
+        tools:text="Enter a search term" />
+
+    <CheckBox
+        android:id="@+id/Dogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dogs"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <CheckBox
+        android:id="@+id/Cats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cats"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <RadioButton
+        android:id="@+id/Privates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Privates"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <RadioButton
+        android:id="@+id/Ninjas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ninjas"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/Toggles"
+        android:layout_width="63dp"
+        android:layout_height="26dp"
+        android:text="Toggles"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <ToggleButton
+        android:id="@+id/btnToggles"
+        android:layout_width="71dp"
+        android:layout_height="47dp"
+        android:checked="true"
+        android:text="btnToggles"
+        android:textOff="OFF"
+        android:textOn="ON"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textOff="OFF"
+        android:textOn="ON"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="185dp"
+        android:layout_height="21dp"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="350dp"
+        android:layout_height="28dp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
